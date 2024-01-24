@@ -1,0 +1,15 @@
+import turtle
+turtle.heading()
+turtle.forward(100)
+turtle.showturtle()
+turtle.right(90)
+turtle.left(90)
+turtle.backward(100)
+turtle.dot(10,'green')
+turtle.begin_fill()
+turtle.getpen()
+turtle.circle(30,20.0,39)
+turtle.end_fill()
+turtle.done()
+if turtle.heading()>=90 and turtle.heading()<=270:
+    turtle.setheading(180)
